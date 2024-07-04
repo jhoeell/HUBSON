@@ -5,6 +5,7 @@
 package DashBoard;
 
 import java.awt.Color;
+import javax.swing.JPanel;
 
 /**
  *
@@ -18,6 +19,15 @@ public class Dashboard extends javax.swing.JFrame {
     public Dashboard() {
         initComponents();
         this.setLocationRelativeTo(this);
+    }
+    
+    private void showPanel(JPanel p){
+        p.setSize(600, 510);
+        p.setLocation(0, 0);
+        Bg.removeAll();
+        Bg.add(p, new org.netbeans.lib.awtextra.AbsoluteConstraints(0,0,-1,-1));
+        Bg.revalidate();
+        Bg.repaint();
     }
 
     /**
@@ -51,9 +61,12 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
+        Bg = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setSize(new java.awt.Dimension(800, 550));
 
         bg2.setBackground(new java.awt.Color(85, 85, 85));
         bg2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -70,6 +83,9 @@ public class Dashboard extends javax.swing.JFrame {
         cervezaTxt.setText("Cerveza");
         cervezaTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         cervezaTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                cervezaTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 cervezaTxtMouseEntered(evt);
             }
@@ -94,6 +110,9 @@ public class Dashboard extends javax.swing.JFrame {
         coctelesTxt.setText("Cocteles");
         coctelesTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         coctelesTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                coctelesTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 coctelesTxtMouseEntered(evt);
             }
@@ -118,6 +137,9 @@ public class Dashboard extends javax.swing.JFrame {
         vinosTxt.setText("Vinos");
         vinosTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         vinosTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                vinosTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 vinosTxtMouseEntered(evt);
             }
@@ -142,6 +164,9 @@ public class Dashboard extends javax.swing.JFrame {
         destiladosTxt.setText("Destilados");
         destiladosTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         destiladosTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                destiladosTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 destiladosTxtMouseEntered(evt);
             }
@@ -166,6 +191,9 @@ public class Dashboard extends javax.swing.JFrame {
         micheladasTxt.setText("Micheladas");
         micheladasTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         micheladasTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                micheladasTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 micheladasTxtMouseEntered(evt);
             }
@@ -190,6 +218,9 @@ public class Dashboard extends javax.swing.JFrame {
         noalcoholTxt.setText("Sin alcohol");
         noalcoholTxt.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         noalcoholTxt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                noalcoholTxtMouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 noalcoholTxtMouseEntered(evt);
             }
@@ -218,20 +249,19 @@ public class Dashboard extends javax.swing.JFrame {
 
         bg2.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 40));
 
-        jPanel3.setBackground(new java.awt.Color(85, 85, 85));
+        Bg.setBackground(new java.awt.Color(85, 85, 85));
+        Bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 600, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 510, Short.MAX_VALUE)
-        );
+        jLabel8.setFont(new java.awt.Font("Goudy Old Style", 1, 48)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setText("Bienvenido a HUBSON");
+        Bg.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 600, 80));
 
-        bg2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 40, 600, 510));
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bginicio.jpg"))); // NOI18N
+        Bg.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-410, 0, 1010, 510));
+
+        bg2.add(Bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 40, 600, 510));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -295,6 +325,36 @@ public class Dashboard extends javax.swing.JFrame {
         noalcoholBtn.setBackground(new Color(45,45,45));
     }//GEN-LAST:event_noalcoholTxtMouseExited
 
+    private void cervezaTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cervezaTxtMouseClicked
+        cervezas b = new cervezas();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_cervezaTxtMouseClicked
+
+    private void coctelesTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_coctelesTxtMouseClicked
+        cocteles b = new cocteles();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_coctelesTxtMouseClicked
+
+    private void vinosTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_vinosTxtMouseClicked
+        vinos b = new vinos();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_vinosTxtMouseClicked
+
+    private void destiladosTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_destiladosTxtMouseClicked
+        destilados b = new destilados();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_destiladosTxtMouseClicked
+
+    private void micheladasTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_micheladasTxtMouseClicked
+        micheladas b = new micheladas();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_micheladasTxtMouseClicked
+
+    private void noalcoholTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_noalcoholTxtMouseClicked
+        sinalcohol b = new sinalcohol();
+        showPanel(b.getFondo());
+    }//GEN-LAST:event_noalcoholTxtMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -331,6 +391,7 @@ public class Dashboard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Bg;
     private javax.swing.JPanel bg2;
     private javax.swing.JPanel cervezaBtn;
     private javax.swing.JLabel cervezaTxt;
@@ -345,9 +406,10 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel micheladasBtn;
     private javax.swing.JLabel micheladasTxt;
     private javax.swing.JPanel noalcoholBtn;
@@ -355,4 +417,5 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel vinosBtn;
     private javax.swing.JLabel vinosTxt;
     // End of variables declaration//GEN-END:variables
+
 }
