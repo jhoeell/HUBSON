@@ -256,7 +256,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Bienvenido a HUBSON");
-        Bg.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 600, 80));
+        Bg.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 510));
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bginicio.jpg"))); // NOI18N
         Bg.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-410, 0, 1010, 510));
