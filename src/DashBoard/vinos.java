@@ -36,38 +36,38 @@ public class vinos extends javax.swing.JFrame {
         fondo = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
 
@@ -86,23 +86,23 @@ public class vinos extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza1.png"))); // NOI18N
-        jPanel8.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
-
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel8.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, -1, -1));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-1.jpg"))); // NOI18N
+        jPanel8.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
 
         jPanel2.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 150));
 
         jLabel8.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Cerveza Andina light lata");
+        jLabel8.setText("Vino tinto reserva Merlot");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 150, -1));
 
         jLabel9.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel9.setText("$ 8.400");
+        jLabel9.setText("$ 88.700");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 150, -1));
 
         fondo.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 170, 210));
@@ -114,24 +114,24 @@ public class vinos extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza2.png"))); // NOI18N
-        jLabel17.setText("jLabel17");
-        jPanel9.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 140));
-
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel9.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 0, -1, -1));
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-2.jpg"))); // NOI18N
+        jLabel17.setText("jLabel17");
+        jPanel9.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 140));
 
         jPanel3.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, 140));
 
         jLabel10.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("Cerveza Sol botella");
+        jLabel10.setText("Tequila jose cuervo");
         jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 140, -1));
 
         jLabel11.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel11.setText("$ 21.000");
+        jLabel11.setText("$ 132.800");
         jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 140, -1));
 
         fondo.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 160, 210));
@@ -143,24 +143,24 @@ public class vinos extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza3.png"))); // NOI18N
-        jLabel15.setText("jLabel7");
-        jPanel10.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
-
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel10.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, -1, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-3.jpg"))); // NOI18N
+        jLabel15.setText("jLabel7");
+        jPanel10.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
 
         jPanel4.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 150));
 
         jLabel12.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Cerveza Miller Lite botella");
+        jLabel12.setText("Ginebra martin miller gin");
         jPanel4.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 150, 20));
 
         jLabel13.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel13.setText("$ 15.000");
+        jLabel13.setText("$ 190.900");
         jPanel4.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 150, -1));
 
         fondo.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 170, 210));
@@ -172,24 +172,24 @@ public class vinos extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza4.png"))); // NOI18N
-        jLabel14.setText("jLabel7");
-        jPanel11.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
-
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel11.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, -1, -1));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-4.jpg"))); // NOI18N
+        jLabel14.setText("jLabel7");
+        jPanel11.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
 
         jPanel5.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 150));
 
         jLabel19.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("Cerveza Andina light botella");
+        jLabel19.setText("Vino tinto reserva cabernet");
         jPanel5.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 160, -1));
 
         jLabel20.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel20.setText("$ 13.200");
+        jLabel20.setText("$ 89.000");
         jPanel5.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 150, -1));
 
         fondo.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 170, 210));
@@ -201,24 +201,24 @@ public class vinos extends javax.swing.JFrame {
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza5.png"))); // NOI18N
-        jLabel18.setText("jLabel17");
-        jPanel12.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 140));
-
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel12.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 0, -1, -1));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-5.jpg"))); // NOI18N
+        jLabel18.setText("jLabel17");
+        jPanel12.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 140));
 
         jPanel6.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, 140));
 
         jLabel21.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("Cerveza Andina light");
+        jLabel21.setText("Tequila gran centenario");
         jPanel6.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 140, -1));
 
         jLabel22.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel22.setText("$ 8.100");
+        jLabel22.setText("$ 114.300");
         jPanel6.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 150, -1));
 
         fondo.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, 160, 210));
@@ -230,24 +230,24 @@ public class vinos extends javax.swing.JFrame {
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cervezas/cerveza6.png"))); // NOI18N
-        jLabel16.setText("jLabel7");
-        jPanel13.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
-
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/plus.png"))); // NOI18N
         jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel13.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, -1, -1));
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vinos/vino-6.jpg"))); // NOI18N
+        jLabel16.setText("jLabel7");
+        jPanel13.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 150));
 
         jPanel7.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 150));
 
         jLabel23.setFont(new java.awt.Font("Gisha", 1, 11)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel23.setText("Cerveza Heineken botella");
+        jLabel23.setText("Vino blanco santa elena");
         jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 150, -1));
 
         jLabel24.setFont(new java.awt.Font("Vani", 0, 12)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(51, 204, 255));
-        jLabel24.setText("$ 21.000");
+        jLabel24.setText("$ 59.800");
         jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 150, -1));
 
         fondo.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 170, 210));
